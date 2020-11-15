@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: index-data-service
+  redis:
+    host: 192.168.80.128
+    password: 123456
